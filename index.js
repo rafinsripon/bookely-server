@@ -12,12 +12,13 @@ app.use(express.json());
 
 async function run(){
     try{
-        console.log("Database Connected");
+        console.log("Database Connected perfect");
     }finally{
 
     }
 }
 run().catch(error => console.log(error));
+
 
 
 
